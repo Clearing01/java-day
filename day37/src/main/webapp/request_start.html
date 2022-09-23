@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="request_end.jsp" method="post">
+	<table border="1">
+		<tr>
+			<td>이름</td>
+			<td><input type="text" name="uname"></td>
+		</tr>
+		<tr>
+			<td>직업</td>
+			<td>
+				<select name="job">
+					<option>무직</option>
+					<option>학생</option>
+					<option>회사원</option>
+					<option>전문직</option>
+					<option>자영업</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>관심 컨텐츠</td>
+			<td>
+				<input type="checkbox" name="fav" value="영화">영화
+				<input type="checkbox" name="fav" value="드라마">드라마
+				<input type="checkbox" name="fav" value="애니메이션">애니메이션
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="right">
+				<input type="submit" value="가입하기">
+			</td>
+			<td></td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>
